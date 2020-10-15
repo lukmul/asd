@@ -3,9 +3,9 @@ import React from 'react';
 const Product = (props) => {
     return (
         <article>
-            <h1>Nazwa proddupauktu:</h1>
+            <h1>@Nazwa proddupauktu:</h1>
             <h3>{props.productName}</h3>
-            <p>-?!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, repellendus explicabo ad at hic ut adipisci ratione magnam culpa fugiat ipsa iusto eligendi temporibus repellat veniam quisquam illum fugit maiores.</p>
+            <p>-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, repellendus explicabo ad at hic ut adipisci ratione magnam culpa fugiat ipsa iusto eligendi temporibus repellat veniam quisquam illum fugit maiores.</p>
             <p>{props.productName} jeździ.</p>
         </article>
 
