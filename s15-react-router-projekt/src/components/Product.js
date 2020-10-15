@@ -5,7 +5,7 @@ const Product = (props) => {
         <article>
             <h1>Nazwa produktu</h1>
             <h3>{props.productName}</h3>
-            <p>{props.productName} jezdzi.</p>
+            <p>{props.productName} jeździ.</p>
         </article>
 
     );
