@@ -10,7 +10,7 @@ const Article = ({ title, author, text }) => {
         <article style={styles}>
             <h3 style={{ marginBottom: 3, textTransform: "uppercase" }}>{title}</h3>
             <span style={{ marginBottom: 10, display: "block", fontSize: 12 }}>{author}</span>
-            <p style={{ fontSize: 15 }}>{text}</p>
+            <p style={{ color: "blue", fontSize: 14 }}>{text}</p>
         </article>
     );
 }
