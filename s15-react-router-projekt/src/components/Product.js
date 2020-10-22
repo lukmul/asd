@@ -7,7 +7,7 @@ const Product = (props) => {
             <h3>00{props.productName}</h3>
             <h4>Jakas dziwna tresc</h4>
             <p>{props.productName}ipsum jeździ.</p>
-            <p>wiecej informacji</p>
+
         </article>
 
     );
