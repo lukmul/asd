@@ -5,8 +5,8 @@ import "../styles/Footer.css";
 const Footer = () => {
     return (
         <div>
-            <h2>Stopka</h2>
-            <Route path="/" exact render={(props) => (
+            <h2>Footer</h2>
+            <Route path="" exact render={(props) => (
                 <p>Jestes na stronie glownej</p>
             )} />
             <Route path="/:page" render={(props) => (
