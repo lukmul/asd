@@ -8,7 +8,7 @@ const Article = ({ title, author, text }) => {
 
     return (
         <article style={styles}>
-
+            <p>dsadasdsads</p>
             <span style={{ display: "block", fontSize: 12 }}>{author}</span>
             <p style={{ color: "blue", fontSize: 14 }}>{text}</p>
             <p>asdasd</p>
